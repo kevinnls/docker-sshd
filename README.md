@@ -2,7 +2,7 @@
 
 Dockerfile and company to spin up lightweight sshd containers
 
-> **warning**
+> **Warning**
 > **CAVEAT**: this image at the current version is not intended to
 > provide shell access. But "proxy" connections to other
 > ssh servers.
