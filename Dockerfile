@@ -3,7 +3,8 @@
 FROM alpine:3.16
 
 RUN apk add --no-cache \
-    openssh-server
+    openssh-server \
+    openssh-client
 
 COPY <<'EOF' /bin/container-entrypoint.sh
 #!/bin/sh
