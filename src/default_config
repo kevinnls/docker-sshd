@@ -1,0 +1,10 @@
+Include /var/sshd/config.d/*.conf
+Port 8022
+
+HostKey /var/sshd/keys/host_rsa_key
+HostKey /var/sshd/keys/host_ecdsa_key
+HostKey /var/sshd/keys/host_ed25519_key
+
+PermitRootLogin no
+AuthorizedKeysFile keys/authorized_keys
+PidFile /var/sshd/sshd.pid
